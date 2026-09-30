@@ -1,0 +1,2422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>USA LLC Formation | Elhannioui</title>
+
+    <meta name="description"
+          content="Start your US LLC from anywhere. LLC formation, EIN, registered agent and business services.">
+
+    <!-- =========================
+         GOOGLE FONT
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <style>
+
+        /* =================================
+           GENERAL SETTINGS
+        ================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #111827;
+            background: #ffffff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        /* =================================
+           COLORS
+
+           Change your colors here
+        ================================= */
+
+        :root {
+
+            --blue: #0756a6;
+
+            --dark-blue: #063b73;
+
+            --red: #d71920;
+
+            --light-blue: #eef6ff;
+
+            --white: #ffffff;
+
+            --dark: #111827;
+
+            --gray: #667085;
+
+        }
+
+
+        /* =================================
+           HEADER
+        ================================= */
+
+        header {
+
+            width: 100%;
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: 1000;
+
+            background: rgba(255,255,255,0.96);
+
+            border-bottom: 1px solid #e5e7eb;
+
+        }
+
+        .navbar {
+
+            max-width: 1200px;
+
+            margin: auto;
+
+            padding: 18px 25px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+        }
+
+
+        /* LOGO */
+
+        .logo {
+
+            font-size: 25px;
+
+            font-weight: 800;
+
+            color: var(--blue);
+
+        }
+
+        .logo span {
+
+            color: var(--red);
+
+        }
+
+
+        /* NAVIGATION */
+
+        .nav-links {
+
+            display: flex;
+
+            gap: 30px;
+
+            list-style: none;
+
+        }
+
+        .nav-links a {
+
+            color: var(--dark);
+
+            font-size: 14px;
+
+            font-weight: 500;
+
+            transition: 0.3s;
+
+        }
+
+        .nav-links a:hover {
+
+            color: var(--red);
+
+        }
+
+
+        /* HEADER BUTTON */
+
+        .nav-button {
+
+            background: var(--red);
+
+            color: white;
+
+            padding: 12px 20px;
+
+            border-radius: 6px;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+        }
+
+
+        /* =================================
+           HERO
+        ================================= */
+
+        .hero {
+
+            min-height: 100vh;
+
+            padding-top: 90px;
+
+            position: relative;
+
+            display: flex;
+
+            align-items: center;
+
+            overflow: hidden;
+
+            background:
+
+                linear-gradient(
+                    90deg,
+                    rgba(4,31,60,0.95) 0%,
+                    rgba(4,31,60,0.82) 45%,
+                    rgba(4,31,60,0.35) 100%
+                ),
+
+                url("https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=2000&q=85");
+
+            background-size: cover;
+
+            background-position: center;
+
+        }
+
+
+        /* RED / BLUE DECORATION */
+
+        .hero::after {
+
+            content: "";
+
+            position: absolute;
+
+            bottom: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 7px;
+
+            background:
+
+                linear-gradient(
+                    to right,
+                    var(--red) 50%,
+                    var(--white) 50%,
+                    var(--white) 75%,
+                    var(--blue) 75%
+                );
+
+        }
+
+
+        .hero-content {
+
+            max-width: 1200px;
+
+            width: 100%;
+
+            margin: auto;
+
+            padding: 80px 25px;
+
+            position: relative;
+
+            z-index: 2;
+
+        }
+
+
+        .hero-label {
+
+            display: inline-block;
+
+            color: white;
+
+            background: rgba(255,255,255,0.12);
+
+            border: 1px solid rgba(255,255,255,0.25);
+
+            padding: 8px 15px;
+
+            border-radius: 30px;
+
+            font-size: 12px;
+
+            font-weight: 600;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .hero h1 {
+
+            max-width: 750px;
+
+            font-size: clamp(45px, 6vw, 75px);
+
+            line-height: 1.05;
+
+            color: white;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .hero h1 span {
+
+            color: #ff3038;
+
+        }
+
+
+        .hero p {
+
+            max-width: 650px;
+
+            color: #e5edf6;
+
+            line-height: 1.8;
+
+            font-size: 17px;
+
+            margin-bottom: 35px;
+
+        }
+
+
+        /* HERO BUTTONS */
+
+        .buttons {
+
+            display: flex;
+
+            gap: 15px;
+
+            flex-wrap: wrap;
+
+        }
+
+
+        .btn {
+
+            display: inline-block;
+
+            padding: 15px 28px;
+
+            border-radius: 6px;
+
+            font-size: 14px;
+
+            font-weight: 700;
+
+            transition: 0.3s;
+
+        }
+
+
+        .btn-primary {
+
+            background: var(--red);
+
+            color: white;
+
+        }
+
+
+        .btn-primary:hover {
+
+            background: #b81218;
+
+            transform: translateY(-2px);
+
+        }
+
+
+        .btn-secondary {
+
+            background: white;
+
+            color: var(--blue);
+
+        }
+
+
+        .btn-secondary:hover {
+
+            background: #edf5ff;
+
+        }
+
+
+        /* =================================
+           TRUST BAR
+        ================================= */
+
+        .trust {
+
+            background: white;
+
+            padding: 25px;
+
+            box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+
+            position: relative;
+
+            z-index: 5;
+
+        }
+
+
+        .trust-container {
+
+            max-width: 1100px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 20px;
+
+            text-align: center;
+
+        }
+
+
+        .trust-item strong {
+
+            display: block;
+
+            color: var(--blue);
+
+            font-size: 18px;
+
+            margin-bottom: 5px;
+
+        }
+
+
+        .trust-item span {
+
+            font-size: 12px;
+
+            color: var(--gray);
+
+        }
+
+
+        /* =================================
+           SECTION
+        ================================= */
+
+        section {
+
+            padding: 100px 25px;
+
+        }
+
+
+        .container {
+
+            max-width: 1150px;
+
+            margin: auto;
+
+        }
+
+
+        .section-title {
+
+            text-align: center;
+
+            max-width: 700px;
+
+            margin: 0 auto 60px;
+
+        }
+
+
+        .section-title small {
+
+            color: var(--red);
+
+            font-weight: 700;
+
+            letter-spacing: 2px;
+
+        }
+
+
+        .section-title h2 {
+
+            font-size: 42px;
+
+            color: var(--dark-blue);
+
+            margin: 12px 0;
+
+        }
+
+
+        .section-title p {
+
+            color: var(--gray);
+
+            line-height: 1.7;
+
+        }
+
+
+        /* =================================
+           SERVICES
+        ================================= */
+
+        .services {
+
+            background: #f7fbff;
+
+        }
+
+
+        .service-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 25px;
+
+        }
+
+
+        .service {
+
+            background: white;
+
+            padding: 35px;
+
+            border-radius: 10px;
+
+            border: 1px solid #e5edf5;
+
+            transition: 0.3s;
+
+        }
+
+
+        .service:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow:
+                0 15px 40px
+                rgba(0,0,0,0.08);
+
+        }
+
+
+        .service-icon {
+
+            width: 55px;
+
+            height: 55px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background: var(--light-blue);
+
+            color: var(--blue);
+
+            border-radius: 8px;
+
+            font-size: 25px;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .service h3 {
+
+            color: var(--dark-blue);
+
+            margin-bottom: 12px;
+
+        }
+
+
+        .service p {
+
+            color: var(--gray);
+
+            line-height: 1.7;
+
+            font-size: 14px;
+
+        }
+
+
+        /* =================================
+           HOW IT WORKS
+        ================================= */
+
+        .steps {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 20px;
+
+        }
+
+
+        .step {
+
+            text-align: center;
+
+            padding: 25px;
+
+        }
+
+
+        .step-number {
+
+            width: 55px;
+
+            height: 55px;
+
+            border-radius: 50%;
+
+            background: var(--blue);
+
+            color: white;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            margin: 0 auto 20px;
+
+            font-weight: 800;
+
+        }
+
+
+        .step:nth-child(2)
+        .step-number {
+
+            background: var(--red);
+
+        }
+
+
+        .step h3 {
+
+            margin-bottom: 10px;
+
+            color: var(--dark-blue);
+
+        }
+
+
+        .step p {
+
+            color: var(--gray);
+
+            font-size: 13px;
+
+            line-height: 1.6;
+
+        }
+
+
+        /* =================================
+           PRICING
+        ================================= */
+
+        .pricing {
+
+            background: #f7fbff;
+
+        }
+
+
+        .pricing-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 25px;
+
+        }
+
+
+        .price-card {
+
+            background: white;
+
+            border-radius: 10px;
+
+            padding: 35px;
+
+            border: 1px solid #e1e7ee;
+
+            position: relative;
+
+        }
+
+
+        .price-card.featured {
+
+            border: 2px solid var(--red);
+
+            transform: translateY(-10px);
+
+        }
+
+
+        .popular {
+
+            position: absolute;
+
+            top: -13px;
+
+            right: 20px;
+
+            background: var(--red);
+
+            color: white;
+
+            padding: 6px 12px;
+
+            font-size: 10px;
+
+            font-weight: 700;
+
+            border-radius: 20px;
+
+        }
+
+
+        .price-card h3 {
+
+            color: var(--dark-blue);
+
+        }
+
+
+        .price {
+
+            font-size: 42px;
+
+            font-weight: 800;
+
+            color: var(--blue);
+
+            margin: 15px 0;
+
+        }
+
+
+        .price span {
+
+            font-size: 14px;
+
+            color: var(--gray);
+
+        }
+
+
+        .price-card ul {
+
+            list-style: none;
+
+            margin: 25px 0;
+
+        }
+
+
+        .price-card li {
+
+            padding: 10px 0;
+
+            border-bottom: 1px solid #eee;
+
+            font-size: 13px;
+
+            color: #555;
+
+        }
+
+
+        .price-card li::before {
+
+            content: "✓";
+
+            color: var(--red);
+
+            font-weight: bold;
+
+            margin-right: 8px;
+
+        }
+
+
+        .price-button {
+
+            display: block;
+
+            text-align: center;
+
+            background: var(--blue);
+
+            color: white;
+
+            padding: 13px;
+
+            border-radius: 6px;
+
+            font-size: 13px;
+
+            font-weight: 700;
+
+        }
+
+
+        /* =================================
+           LLC APPLICATION FORM
+        ================================= */
+
+        .application {
+
+            background: white;
+
+        }
+
+
+        .form-box {
+
+            max-width: 850px;
+
+            margin: auto;
+
+            background: #f8fbff;
+
+            padding: 45px;
+
+            border-radius: 12px;
+
+            border: 1px solid #e2eaf3;
+
+        }
+
+
+        .form-title {
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .form-title h2 {
+
+            color: var(--dark-blue);
+
+            margin-bottom: 8px;
+
+        }
+
+
+        .form-title p {
+
+            color: var(--gray);
+
+            font-size: 13px;
+
+        }
+
+
+        .form-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 20px;
+
+        }
+
+
+        .form-group {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 7px;
+
+        }
+
+
+        .form-group.full {
+
+            grid-column: 1 / -1;
+
+        }
+
+
+        .form-group label {
+
+            font-size: 12px;
+
+            font-weight: 600;
+
+            color: var(--dark-blue);
+
+        }
+
+
+        .form-group input,
+
+        .form-group select,
+
+        .form-group textarea {
+
+            width: 100%;
+
+            padding: 13px;
+
+            border: 1px solid #ccd6e0;
+
+            border-radius: 5px;
+
+            background: white;
+
+            outline: none;
+
+        }
+
+
+        .form-group input:focus,
+
+        .form-group select:focus,
+
+        .form-group textarea:focus {
+
+            border-color: var(--blue);
+
+        }
+
+
+        .form-submit {
+
+            margin-top: 25px;
+
+        }
+
+
+        .form-submit button {
+
+            width: 100%;
+
+            border: none;
+
+            cursor: pointer;
+
+        }
+
+
+        /* =================================
+           CONSULTATION
+        ================================= */
+
+        .consultation {
+
+            background:
+
+                linear-gradient(
+                    rgba(4,44,84,0.95),
+                    rgba(4,44,84,0.95)
+                );
+
+            color: white;
+
+        }
+
+
+        .consultation-box {
+
+            max-width: 800px;
+
+            margin: auto;
+
+            text-align: center;
+
+        }
+
+
+        .consultation h2 {
+
+            font-size: 42px;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        .consultation p {
+
+            color: #dbe8f5;
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .consultation textarea {
+
+            width: 100%;
+
+            padding: 15px;
+
+            border-radius: 6px;
+
+            border: none;
+
+            margin-bottom: 15px;
+
+            min-height: 150px;
+
+        }
+
+
+        /* =================================
+           FOOTER
+        ================================= */
+
+        footer {
+
+            background: #061c33;
+
+            color: white;
+
+            padding: 60px 25px 25px;
+
+        }
+
+
+        .footer-container {
+
+            max-width: 1150px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns:
+                2fr 1fr 1fr;
+
+            gap: 50px;
+
+        }
+
+
+        footer h3 {
+
+            margin-bottom: 15px;
+
+        }
+
+
+        footer p,
+
+        footer a {
+
+            color: #aebdcd;
+
+            font-size: 13px;
+
+            line-height: 2;
+
+        }
+
+
+        footer a:hover {
+
+            color: white;
+
+        }
+
+
+        .copyright {
+
+            max-width: 1150px;
+
+            margin: 50px auto 0;
+
+            padding-top: 20px;
+
+            border-top: 1px solid #29415b;
+
+            color: #8092a6;
+
+            font-size: 12px;
+
+        }
+
+
+        /* =================================
+           MOBILE
+        ================================= */
+
+        @media(max-width: 850px) {
+
+            .nav-links {
+
+                display: none;
+
+            }
+
+            .hero {
+
+                background-position:
+                    center;
+
+            }
+
+            .service-grid,
+
+            .pricing-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .steps {
+
+                grid-template-columns:
+                    repeat(2,1fr);
+
+            }
+
+            .trust-container {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .price-card.featured {
+
+                transform: none;
+
+            }
+
+            .footer-container {
+
+                grid-template-columns: 1fr;
+
+            }
+
+        }
+
+
+        @media(max-width: 600px) {
+
+            .form-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .form-box {
+
+                padding: 25px;
+
+            }
+
+            .hero h1 {
+
+                font-size: 45px;
+
+            }
+
+            .section-title h2 {
+
+                font-size: 32px;
+
+            }
+
+            .steps {
+
+                grid-template-columns: 1fr;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- ==================================================
+     HEADER
+=================================================== -->
+
+<header>
+
+    <div class="navbar">
+
+        <!-- CHANGE WEBSITE NAME HERE -->
+
+        <a href="#" class="logo">
+            ELHANNIOUI<span> LLC</span>
+        </a>
+
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#services">Services</a>
+            </li>
+
+            <li>
+                <a href="#pricing">Pricing</a>
+            </li>
+
+            <li>
+                <a href="#application">Apply</a>
+            </li>
+
+            <li>
+                <a href="#consultation">Consultation</a>
+            </li>
+
+        </ul>
+
+
+        <!-- CHANGE BUTTON TEXT HERE -->
+
+        <a href="#application"
+           class="nav-button">
+
+            Start Your LLC
+
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- ==================================================
+     HERO
+=================================================== -->
+
+<section class="hero"
+         id="home">
+
+    <div class="hero-content">
+
+
+        <span class="hero-label">
+
+            🇺🇸 US BUSINESS FORMATION
+
+        </span>
+
+
+        <h1>
+
+            Start Your
+            <span>US LLC</span>
+            From Anywhere.
+
+        </h1>
+
+
+        <p>
+
+            Build your American business remotely.
+            We help entrepreneurs with LLC formation,
+            EIN applications, registered agent services
+            and business setup.
+
+        </p>
+
+
+        <div class="buttons">
+
+            <!-- CHANGE BUTTON TEXT HERE -->
+
+            <a href="#application"
+               class="btn btn-primary">
+
+                START MY LLC
+
+            </a>
+
+
+            <!-- CHANGE BUTTON TEXT HERE -->
+
+            <a href="#consultation"
+               class="btn btn-secondary">
+
+                FREE CONSULTATION
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     TRUST
+=================================================== -->
+
+<div class="trust">
+
+    <div class="trust-container">
+
+
+        <div class="trust-item">
+
+            <strong>🇺🇸 US LLC</strong>
+
+            <span>
+                Formation services
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <strong>📄 EIN</strong>
+
+            <span>
+                Business tax ID assistance
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <strong>🌎 REMOTE</strong>
+
+            <span>
+                Apply from anywhere
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ==================================================
+     SERVICES
+=================================================== -->
+
+<section class="services"
+         id="services">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <small>
+                OUR SERVICES
+            </small>
+
+            <h2>
+                Everything you need to start.
+            </h2>
+
+            <p>
+
+                Choose the services that fit your
+                business project.
+
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    🏢
+                </div>
+
+                <h3>
+                    LLC Formation
+                </h3>
+
+                <p>
+                    Formation of your US limited
+                    liability company.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    📄
+                </div>
+
+                <h3>
+                    EIN Application
+                </h3>
+
+                <p>
+                    Assistance with obtaining your
+                    federal Employer Identification Number.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    📬
+                </div>
+
+                <h3>
+                    Registered Agent
+                </h3>
+
+                <p>
+                    Registered agent solutions for
+                    maintaining your US company.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    🏦
+                </div>
+
+                <h3>
+                    Business Banking
+                </h3>
+
+                <p>
+                    Guidance on available US business
+                    banking options.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Business Address
+                </h3>
+
+                <p>
+                    US business address solutions
+                    for eligible businesses.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    💼
+                </div>
+
+                <h3>
+                    Business Setup
+                </h3>
+
+                <p>
+                    Get practical guidance for
+                    structuring your new business.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     HOW IT WORKS
+=================================================== -->
+
+<section>
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <small>
+                SIMPLE PROCESS
+            </small>
+
+            <h2>
+                How it works
+            </h2>
+
+        </div>
+
+
+        <div class="steps">
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    01
+                </div>
+
+                <h3>
+                    Choose
+                </h3>
+
+                <p>
+                    Select your package and
+                    preferred state.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    02
+                </div>
+
+                <h3>
+                    Apply
+                </h3>
+
+                <p>
+                    Complete the application
+                    form with your information.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    03
+                </div>
+
+                <h3>
+                    Payment
+                </h3>
+
+                <p>
+                    Complete your order payment
+                    securely.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    04
+                </div>
+
+                <h3>
+                    Formation
+                </h3>
+
+                <p>
+                    We process the selected
+                    formation services.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     PRICING
+=================================================== -->
+
+<section class="pricing"
+         id="pricing">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <small>
+                PACKAGES
+            </small>
+
+            <h2>
+                Choose your package
+            </h2>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+            <!-- BASIC -->
+
+            <div class="price-card">
+
+                <h3>
+                    BASIC
+                </h3>
+
+                <!-- CHANGE PRICE HERE -->
+
+                <div class="price">
+                    $159
+                    <span>
+                        / package
+                    </span>
+                </div>
+
+
+                <ul>
+
+                    <li>
+                        LLC Formation
+                    </li>
+
+                    <li>
+                        Articles of Organization
+                    </li>
+
+                    <li>
+                        Basic support
+                    </li>
+
+                    <li>
+                        Digital documents
+                    </li>
+
+                </ul>
+
+
+                <!-- CHANGE BUTTON TEXT HERE -->
+
+                <a href="#application"
+                   class="price-button">
+
+                    CHOOSE BASIC
+
+                </a>
+
+            </div>
+
+
+
+            <!-- PROFESSIONAL -->
+
+            <div class="price-card featured">
+
+                <div class="popular">
+                    MOST POPULAR
+                </div>
+
+
+                <h3>
+                    PROFESSIONAL
+                </h3>
+
+
+                <!-- CHANGE PRICE HERE -->
+
+                <div class="price">
+                    $249
+                    <span>
+                        / package
+                    </span>
+                </div>
+
+
+                <ul>
+
+                    <li>
+                        LLC Formation
+                    </li>
+
+                    <li>
+                        EIN Assistance
+                    </li>
+
+                    <li>
+                        Registered Agent
+                    </li>
+
+                    <li>
+                        Business Support
+                    </li>
+
+                </ul>
+
+
+                <a href="#application"
+                   class="price-button">
+
+                    CHOOSE PROFESSIONAL
+
+                </a>
+
+            </div>
+
+
+
+            <!-- COMPLETE -->
+
+            <div class="price-card">
+
+                <h3>
+                    COMPLETE
+                </h3>
+
+
+                <!-- CHANGE PRICE HERE -->
+
+                <div class="price">
+                    $399
+                    <span>
+                        / package
+                    </span>
+                </div>
+
+
+                <ul>
+
+                    <li>
+                        LLC Formation
+                    </li>
+
+                    <li>
+                        EIN Assistance
+                    </li>
+
+                    <li>
+                        Registered Agent
+                    </li>
+
+                    <li>
+                        Business Address
+                    </li>
+
+                    <li>
+                        Business Setup Support
+                    </li>
+
+                </ul>
+
+
+                <a href="#application"
+                   class="price-button">
+
+                    CHOOSE COMPLETE
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     APPLICATION FORM
+=================================================== -->
+
+<section class="application"
+         id="application">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <small>
+                LLC APPLICATION
+            </small>
+
+            <h2>
+                Start your company
+            </h2>
+
+            <p>
+                Complete the form and we will
+                contact you about your application.
+            </p>
+
+        </div>
+
+
+        <div class="form-box">
+
+
+            <div class="form-title">
+
+                <h2>
+                    Company Information
+                </h2>
+
+                <p>
+                    Please enter accurate information.
+                </p>
+
+            </div>
+
+
+            <form
+                <form
+    action="https://api.web3forms.com/submit"
+    method="POST">
+
+    <!-- Web3Forms Access Key -->
+    <input
+        type="hidden"
+        name="access_key"
+        value="9c7e5236-74a1-47a1-9ffd-6121acc118fa">
+
+    <!-- Email subject -->
+    <input
+        type="hidden"
+        name="subject"
+        value="New LLC Application - Elhannioui">
+
+    <!-- Website name -->
+    <input
+        type="hidden"
+        name="from_name"
+        value="Elhannioui LLC">
+
+    <!-- Email that will receive the submission -->
+    <input
+        type="hidden"
+        name="email_to"
+        value="Karim.elhannioui@gmail.com">
+
+    <!-- Anti spam -->
+    <input
+        type="checkbox"
+        name="botcheck"
+        style="display:none">
+
+    <!-- هنا كتخلي باقي الخانات ديالك -->
+
+
+                <div class="form-grid">
+
+
+                    <!-- FIRST NAME -->
+
+                    <div class="form-group">
+
+                        <label>
+                            First Name
+                        </label>
+
+                        <input
+                            type="text"
+                            name="first_name"
+                            placeholder="Your first name"
+                            required>
+
+                    </div>
+
+
+                    <!-- LAST NAME -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Last Name
+                        </label>
+
+                        <input
+                            type="text"
+                            name="last_name"
+                            placeholder="Your last name"
+                            required>
+
+                    </div>
+
+
+                    <!-- COMPANY NAME 1 -->
+
+                    <div class="form-group">
+
+                        <label>
+                            LLC Name — First Choice
+                        </label>
+
+                        <input
+                            type="text"
+                            name="llc_name_1"
+                            placeholder="Example: Karim Global LLC"
+                            required>
+
+                    </div>
+
+
+                    <!-- COMPANY NAME 2 -->
+
+                    <div class="form-group">
+
+                        <label>
+                            LLC Name — Second Choice
+                        </label>
+
+                        <input
+                            type="text"
+                            name="llc_name_2"
+                            placeholder="Alternative company name"
+                            required>
+
+                    </div>
+
+
+                    <!-- ADDRESS -->
+
+                    <div class="form-group full">
+
+                        <label>
+                            Full Address
+                        </label>
+
+                        <input
+                            type="text"
+                            name="address"
+                            placeholder="Your full address"
+                            required>
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="+212 ..."
+                            required>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            required>
+
+                    </div>
+
+
+                    <!-- NATIONAL ID -->
+
+                    <div class="form-group">
+
+                        <label>
+                            National ID
+                        </label>
+
+                        <input
+                            type="text"
+                            name="national_id"
+                            placeholder="Your ID number"
+                            required>
+
+                    </div>
+
+
+                    <!-- STATE -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Preferred State
+                        </label>
+
+                        <select name="state"
+                                required>
+
+                            <option value="">
+                                Select a state
+                            </option>
+
+                            <option value="Wyoming">
+                                Wyoming
+                            </option>
+
+                            <option value="Delaware">
+                                Delaware
+                            </option>
+
+                            <option value="New Mexico">
+                                New Mexico
+                            </option>
+
+                            <option value="Florida">
+                                Florida
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- PACKAGE -->
+
+                    <div class="form-group full">
+
+                        <label>
+                            Select Package
+                        </label>
+
+                        <select name="package"
+                                required>
+
+                            <option value="">
+                                Choose your package
+                            </option>
+
+                            <option value="Basic - $159">
+                                Basic — $159
+                            </option>
+
+                            <option value="Professional - $249">
+                                Professional — $249
+                            </option>
+
+                            <option value="Complete - $399">
+                                Complete — $399
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- NEW EMAIL -->
+
+                    <div class="form-group full">
+
+                        <label>
+                            Do you need a new business email?
+                        </label>
+
+                        <select name="new_email">
+
+                            <option value="Yes">
+                                Yes
+                            </option>
+
+                            <option value="No">
+                                No
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- ADDITIONAL INFORMATION -->
+
+                    <div class="form-group full">
+
+                        <label>
+                            Additional Information
+                        </label>
+
+                        <textarea
+                            name="message"
+                            rows="6"
+                            placeholder="Tell us about your business...">
+                        </textarea>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="form-submit">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary">
+
+                        SUBMIT LLC APPLICATION
+
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     CONSULTATION
+=================================================== -->
+
+<section class="consultation"
+         id="consultation">
+
+    <div class="consultation-box">
+
+
+        <p>
+            NEED HELP?
+        </p>
+
+
+        <h2>
+            Request a consultation
+        </h2>
+
+
+        <p>
+
+            Have a question before starting?
+            Write your question below and
+            contact us.
+
+        </p>
+
+
+        <!--
+
+        IMPORTANT:
+
+        Replace YOUR_FORM_ENDPOINT with
+        your real form/email service.
+
+        -->
+
+      <form
+            <form
+    action="https://api.web3forms.com/submit"
+    method="POST">
+
+    <input
+        type="hidden"
+        name="access_key"
+        value="9c7e5236-74a1-47a1-9ffd-6121acc118fa">
+
+    <form>
+            <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+                style="
+                    width:100%;
+                    padding:15px;
+                    margin-bottom:12px;
+                    border-radius:6px;
+                    border:none;
+                ">
+                
+    
+
+
+            <textarea
+                name="consultation"
+                placeholder="Write your question here..."
+                required>
+            </textarea>
+
+
+            <!-- CHANGE BUTTON TEXT HERE -->
+
+            
+
+                SEND MY QUESTION 
+
+
+    <textarea
+        name="Consultation"
+        placeholder="Write your question here..."
+        required>
+    </textarea>
+
+
+    <button
+        type="submit"
+        class="btn btn-primary">
+
+        SEND MY QUESTION
+
+    </button>
+    
+
+            </button>
+
+
+
+        </form>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     FOOTER
+=================================================== -->
+
+<footer>
+
+    <div class="footer-container">
+
+
+        <div>
+
+            <h3>
+                ELHANNIOUI LLC
+            </h3>
+
+            <p>
+
+                US business formation and
+                business support services.
+
+            </p>
+
+            <p>
+
+                📧 Abdelkrim@elhannioui.com
+
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Services
+            </h3>
+
+            <p>
+                <a href="#services">
+                    LLC Formation
+                </a>
+            </p>
+
+            <p>
+                <a href="#services">
+                    EIN Assistance
+                </a>
+            </p>
+
+            <p>
+                <a href="#services">
+                    Registered Agent
+                </a>
+            </p>
+
+            <p>
+                <a href="#services">
+                    Business Address
+                </a>
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <p>
+                <a href="#home">
+                    Home
+                </a>
+            </p>
+
+            <p>
+                <a href="#pricing">
+                    Pricing
+                </a>
+            </p>
+
+            <p>
+                <a href="#application">
+                    Apply
+                </a>
+            </p>
+
+            <p>
+                <a href="#consultation">
+                    Consultation
+                </a>
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Elhannioui LLC Services.
+        All rights reserved.
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
